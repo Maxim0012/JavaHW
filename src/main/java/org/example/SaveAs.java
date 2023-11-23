@@ -1,2 +1,7 @@
-package org.example;public interface SaveAs {
+package org.example;
+
+import java.io.Serializable;
+
+public interface SaveAs {
+    void save(String path, Serializable obj);
 }

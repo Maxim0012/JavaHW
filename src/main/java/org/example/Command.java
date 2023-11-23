@@ -1,2 +1,15 @@
-package org.example;public class Command {
+package org.example;
+
+
+public abstract class Command implements Option {
+    private Console console;
+
+    public Command(Console console) {
+        this.console = console;
+    }
+
+    public Console getConsole() {
+        return console;
+    }
+
 }

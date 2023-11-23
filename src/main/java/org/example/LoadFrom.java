@@ -1,2 +1,7 @@
-package org.example;public interface LoadFrom {
+package org.example;
+
+import java.io.Serializable;
+
+public interface LoadFrom {
+    Serializable load(String path);
 }
