@@ -1,6 +1,5 @@
-package org.example;
-
-
+package org.example.console.commands;
+import org.example.console.Console;
 
 public class SaveFamily extends Command {
     public SaveFamily(Console console) {

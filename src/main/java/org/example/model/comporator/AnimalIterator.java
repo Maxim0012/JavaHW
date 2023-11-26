@@ -1,4 +1,6 @@
-package org.example;
+package org.example.model.comporator;
+
+import org.example.model.Animal;
 
 import java.util.Iterator;
 import java.util.List;

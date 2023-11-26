@@ -1,6 +1,11 @@
-package org.example;
+package org.example.presenter;
 
 
+import org.example.console.View;
+import org.example.model.FamilyTree;
+import org.example.model.FileHandler;
+import org.example.model.Human;
+import org.example.model.comporator.HumanComporatorByAge;
 
 public class Presenter {
     private View view;

@@ -1,4 +1,6 @@
-package org.example;
+package org.example.model;
+
+import org.example.model.Animal;
 
 public class
 Human extends Animal {

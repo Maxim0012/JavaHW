@@ -1,4 +1,6 @@
-package org.example;
+package org.example.model;
+
+import org.example.model.comporator.AnimalIterator;
 
 import java.io.Serializable;
 import java.util.ArrayList;

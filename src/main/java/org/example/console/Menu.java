@@ -1,6 +1,17 @@
-package org.example;
+package org.example.console;
 import java.util.ArrayList;
 import java.util.List;
+
+import org.example.console.commands.AddHuman;
+import org.example.console.commands.Exit;
+import org.example.console.commands.FamilyPrint;
+import org.example.console.commands.HumanSearch;
+import org.example.console.commands.Load;
+import org.example.console.commands.Option;
+import org.example.console.commands.SaveFamily;
+import org.example.console.commands.SortAge;
+import org.example.console.commands.SortName;
+
 
 
 

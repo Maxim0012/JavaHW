@@ -1,5 +1,7 @@
-package org.example;
+package org.example.console;
+import org.example.presenter.Presenter;
 import java.util.Scanner;
+
 
 
 public class Console implements View {

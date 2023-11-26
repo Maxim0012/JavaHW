@@ -1,4 +1,6 @@
-package org.example;
+package org.example.model.comporator;
+import org.example.model.Human;
+
 import java.util.Comparator;
 
 

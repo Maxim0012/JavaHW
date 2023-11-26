@@ -1,4 +1,12 @@
 package org.example;
+import org.example.console.Console;
+import org.example.console.View;
+import org.example.model.FamilyTree;
+import org.example.model.FileHandler;
+import org.example.model.Human;
+import org.example.model.comporator.HumanComporatorByAge;
+import org.example.presenter.Presenter;
+
 import java.io.IOException;
 
 
@@ -7,9 +15,9 @@ public class Main {
         FamilyTree<Human> familyTree = new FamilyTree<>();
 
         // добавляем немного данных
-        familyTree.addFamilyTree(new Human("Алекс", "муж", 27));
-        familyTree.addFamilyTree(new Human("Владимир Владимирович Путин", "муж", 70));
-        familyTree.getByName("алекс");
+        familyTree.addFamilyTree(new Human("Владимир", "муж", 27));
+        familyTree.addFamilyTree(new Human("Виталя", "муж", 33));
+        familyTree.getByName("владимир");
 
         // MVP
         View view = new Console();
